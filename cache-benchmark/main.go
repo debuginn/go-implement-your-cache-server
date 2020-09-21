@@ -1,12 +1,13 @@
 package main
 
 import (
-	"./cacheClient"
 	"flag"
 	"fmt"
 	"math/rand"
 	"strings"
 	"time"
+
+	"github.com/debuginn/go-implement-your-cache-server/cache-benchmark/cacheClient"
 )
 
 type statistic struct {
